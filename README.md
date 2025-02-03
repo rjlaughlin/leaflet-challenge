@@ -11,7 +11,11 @@ This project is divided into three main components:
 
 ### 1. Fetching Data
 
-Data is pulled directly from the USGS website using the following JSON URL: https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/1.0_week.geojson. The URL takes all earthquakes from the previous week with a magnitude of 1 or higher.
+Data is pulled directly from the USGS website using the following JSON URL: 
+
+https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/1.0_week.geojson. 
+
+The URL takes all earthquakes from the previous week with a magnitude of 1 or higher.
 
 ### 2. Data Visualization with Leaflet.js
 
@@ -37,4 +41,4 @@ Before starting, ensure you have the following installed:
     - Leaflet.js
 
 ## Running the Analysis
-- Access the dashboard: `https://rjlaughlin.github.io/belly-button-challenge/`
+- Access the map: `https://rjlaughlin.github.io/leaflet-challenge/`
