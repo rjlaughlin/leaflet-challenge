@@ -1,0 +1,39 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+#map,
+body,
+html {
+  height: 100%;
+}
+
+.legend {
+  background: white;
+  margin: 0;  /* Remove margin around the legend */
+  padding: 8px; /* Remove padding inside the legend */
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  margin: -5px;  /* Remove margin between items */
+  padding: 0; /* Remove padding around each legend item */
+}
+
+.legend-item i {
+  width: 16px;  /* Adjust the box size */
+  height: 16px;
+  display: block;  /* Ensures the boxes are stacked vertically */
+  margin: 0;  /* Remove margin around the boxes */
+}
+
+.legend-item span {
+  padding-left: 4px;  /* Adjust space between box and text */
+  margin: 0;  /* Remove margin from the text */
+}
