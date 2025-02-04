@@ -84,7 +84,7 @@ legend.addTo(myMap);
     return depth > 90 ? '#FF5F65' :  // Red
            depth > 70 ? '#FCA35D' :  // Dark Orange
            depth > 50 ? '#FDB72A' :  // Orange
-           depth > 30 ? '#F7DB11' :  // Yellow
-           depth > 10  ? '#DCF400' :  // Very shallow (light orange)
-           '#A3F600';                // Near surface (yellow)
+           depth > 30 ? '#F7DB11' :  // Dark Yellow
+           depth > 10  ? '#DCF400' :  // Very shallow (light yellow green)
+           '#A3F600';                // Near surface (green)
 };
